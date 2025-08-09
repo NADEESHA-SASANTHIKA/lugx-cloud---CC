@@ -1,0 +1,350 @@
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+Last timestamp: 2025-08-09 05:07:32
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 82 ('%'): %s). Expected one of: ALL, DISTINCT, list of expressions, list of elements, expression with optional alias, element of expression with optional alias, lambda expression, token, OpeningRoundBracket, identifier, Arrow, expression with ternary operator, logical-OR expression, list, delimited by operator of variable arity, logical-AND expression, logical-NOT expression, expression with prefix unary operator, NOT, nullity checking, comparison expression, list, delimited by binary operators, BETWEEN expression, string concatenation expression, additive expression, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, qualified asterisk, compound identifier, asterisk, substitution, MySQL-style global variable, end of query. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+Last timestamp: 2025-08-09 05:07:32
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 82 ('%'): %s). Expected one of: ALL, DISTINCT, list of expressions, list of elements, expression with optional alias, element of expression with optional alias, lambda expression, token, OpeningRoundBracket, identifier, Arrow, expression with ternary operator, logical-OR expression, list, delimited by operator of variable arity, logical-AND expression, logical-NOT expression, expression with prefix unary operator, NOT, nullity checking, comparison expression, list, delimited by binary operators, BETWEEN expression, string concatenation expression, additive expression, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, qualified asterisk, compound identifier, asterisk, substitution, MySQL-style global variable, end of query. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+Last timestamp: 2025-08-09 05:07:32
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 82 ('%'): %s). Expected one of: ALL, DISTINCT, list of expressions, list of elements, expression with optional alias, element of expression with optional alias, lambda expression, token, OpeningRoundBracket, identifier, Arrow, expression with ternary operator, logical-OR expression, list, delimited by operator of variable arity, logical-AND expression, logical-NOT expression, expression with prefix unary operator, NOT, nullity checking, comparison expression, list, delimited by binary operators, BETWEEN expression, string concatenation expression, additive expression, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, qualified asterisk, compound identifier, asterisk, substitution, MySQL-style global variable, end of query. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+Last timestamp: 2025-08-09 05:07:32
+❌ Error: Code: 62.
+DB::Exception: Syntax error: failed at position 71 ('%'): %s. Expected one of: ANY, ALL, BETWEEN expression, string concatenation expression, list, delimited by operator of variable arity, additive expression, list, delimited by binary operators, INTERVAL operator expression, INTERVAL, TIMESTAMP operator expression, TIMESTAMP, DATE operator expression, DATE, multiplicative expression, unary expression, expression with prefix unary operator, NOT, tuple element expression, array element expression, CAST expression, element of expression, SELECT subquery, CAST operator, tuple, collection of literals, parenthesized expression, array, literal, NULL, number, Bool, true, false, string literal, case, CASE, COLUMNS matcher, COLUMNS, function, identifier, qualified asterisk, compound identifier, list of elements, asterisk, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, int, bool) @ 0xa82d07a in /usr/bin/clickhouse
+1. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, unsigned long, unsigned long) @ 0x14d642bf in /usr/bin/clickhouse
+2. ? @ 0x13d121f0 in /usr/bin/clickhouse
+3. DB::executeQuery(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::shared_ptr<DB::Context>, bool, DB::QueryProcessingStage::Enum) @ 0x13d11e55 in /usr/bin/clickhouse
+4. DB::TCPHandler::runImpl() @ 0x147f050f in /usr/bin/clickhouse
+5. DB::TCPHandler::run() @ 0x14804259 in /usr/bin/clickhouse
+6. Poco::Net::TCPServerConnection::start() @ 0x1745e52f in /usr/bin/clickhouse
+7. Poco::Net::TCPServerDispatcher::run() @ 0x17460981 in /usr/bin/clickhouse
+8. Poco::PooledThread::run() @ 0x17611609 in /usr/bin/clickhouse
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x1760ed00 in /usr/bin/clickhouse
+10. ? @ 0x7f2816ab3609 in ?
+11. __clone @ 0x7f28169da293 in ?
+
+  File "/home/ec2-user/lugx-cloud-cw/export_events.py", line 63
+    ~
+     ^
+SyntaxError: invalid syntax
+  File "/home/ec2-user/lugx-cloud-cw/export_events.py", line 63
+    ~
+     ^
+SyntaxError: invalid syntax
+Last timestamp: 2025-08-09 05:07:32
+✅ 13 new rows exported to RDS at 2025-08-09 09:06:13.162434.
+Last timestamp: 2025-08-09 08:38:31
+✅ 14 new rows exported to RDS at 2025-08-09 09:10:03.113424.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:15:02.448859.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:20:02.819653.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:25:02.614182.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:30:03.405644.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:35:02.573803.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:40:03.372795.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:45:02.465823.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:50:02.891017.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 09:55:02.756300.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:00:03.706274.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:05:01.621897.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:10:03.219038.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:15:02.790480.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:20:03.153608.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:25:02.107473.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:30:03.006055.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:35:01.758792.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:40:02.975436.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:45:01.851634.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:50:02.760928.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 10:55:02.778795.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:00:04.005710.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:05:02.017254.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:10:02.590535.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:15:03.126815.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:20:02.564250.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:25:02.514438.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:30:03.326255.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:35:02.406827.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:40:02.765352.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:45:02.704250.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:50:02.851242.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 11:55:03.054675.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:00:03.498445.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:05:02.977730.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:10:02.066530.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:15:02.668042.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:20:03.690535.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:25:02.562982.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:30:02.737047.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:35:02.575967.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:40:03.058158.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:45:02.537990.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:50:02.882245.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 12:55:02.889797.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:00:03.604299.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:05:02.696968.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:10:03.404711.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:15:02.783511.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:20:02.934905.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:25:02.576821.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:30:03.537000.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:35:02.477078.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:40:03.266289.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:45:02.383363.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:50:02.631276.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 13:55:02.977764.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:00:02.754830.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:05:02.318959.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:10:02.951601.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:15:03.161541.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:20:02.720541.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:25:02.546501.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:30:03.706430.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:35:02.709338.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:40:03.179114.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:45:02.514979.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:50:02.608368.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 14:55:02.742118.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:00:03.806728.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:05:01.855504.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:10:03.446382.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:15:03.104272.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:20:02.916940.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:25:02.695818.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:30:03.190034.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:35:02.229192.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:40:02.783657.
+Last timestamp: 2025-08-09 09:09:14
+✅ 0 new rows exported to RDS at 2025-08-09 15:45:02.797796.

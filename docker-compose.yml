@@ -1,0 +1,46 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: lugx_gaming
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mypassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  clickhouse:
+    image: clickhouse/clickhouse-server
+    ports:
+      - "9000:9000"
+    volumes:
+      - chdata:/var/lib/clickhouse
+      - ./clickhouse-config.xml:/etc/clickhouse-server/users.d/network_access.xml
+
+  game-service:
+    build: ./game-service
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  order-service:
+    build: ./order-service
+    ports:
+      - "5001:5001"
+    depends_on:
+      - db
+
+  analytics-service:
+    build: ./analytics-service
+    ports:
+      - "5002:5002"
+    depends_on:
+      - clickhouse
+
+volumes:
+  pgdata:
+  chdata:

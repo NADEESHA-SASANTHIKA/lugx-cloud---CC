@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clickhouse
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: clickhouse
+  template:
+    metadata:
+      labels:
+        app: clickhouse
+    spec:
+      containers:
+        - name: clickhouse
+          image: yandex/clickhouse-server:latest
+          ports:
+            - containerPort: 9000
+            - containerPort: 8123
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: clickhouse
+spec:
+  selector:
+    app: clickhouse
+  type: NodePort
+  ports:
+    - name: tcp-client
+      port: 9000
+      targetPort: 9000
+      nodePort: 30004   # Choose a free NodePort
+    - name: http
+      port: 8123
+      targetPort: 8123
+      nodePort: 30005   # Choose a free NodePort
+

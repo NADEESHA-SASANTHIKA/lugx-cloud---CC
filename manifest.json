@@ -1,0 +1,16 @@
+{
+  "fileLocations": [
+    {
+      "URIs": [
+        "s3://lugx-clickhouse-export/clickhouse-exports/events_20250803_174018.csv"
+      ]
+    }
+  ],
+  "globalUploadSettings": {
+    "format": "CSV",
+    "delimiter": ",",
+    "textqualifier": "\"",
+    "containsHeader": true
+  }
+}
+

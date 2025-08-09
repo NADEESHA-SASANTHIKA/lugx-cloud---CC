@@ -1,0 +1,10 @@
+<yandex>
+  <users>
+    <default>
+      <networks>
+        <ip>::/0</ip> <!-- Allow all IPs -->
+      </networks>
+      <password></password>
+    </default>
+  </users>
+</yandex>
