@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: analytics-service-blue
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: analytics-service
+      version: blue
+  template:
+    metadata:
+      labels:
+        app: analytics-service
+        version: blue
+    spec:
+      containers:
+      - name: analytics-service
+        image: nadeesha171/analytics-service:latest
+        ports:
+        - containerPort: 5002
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: analytics-service-green
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: analytics-service
+      version: green
+  template:
+    metadata:
+      labels:
+        app: analytics-service
+        version: green
+    spec:
+      containers:
+      - name: analytics-service
+        image: nadeesha171/analytics-service:latest
+        ports:
+        - containerPort: 5002
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: analytics-service
+spec:
+  type: NodePort
+  selector:
+    app: analytics-service
+    version: blue
+  ports:
+  - port: 5002
+    targetPort: 5002
+    nodePort: 30003
