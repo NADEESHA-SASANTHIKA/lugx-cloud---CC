@@ -1,5 +1,5 @@
 pipeline {
-  agent {label 'master'}
+  agent any
   environment {
     // Change namespace if your deployments are in a different one
     KUBE_NAMESPACE = 'default'
